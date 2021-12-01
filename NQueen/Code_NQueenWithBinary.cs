@@ -30,14 +30,23 @@ namespace NQueen
             if (colLim == limit)
                 return 1;
 
-            int pos;//剩余1 可作为放置皇后的位置
+            int pos;
             int mostRightOne;//最右测的1
-            pos = limit & (~(colLim | leftDiaLim | rightDiaLim));
+            //例：
+            //第0行                                            00001000
+            //第1行的限制：
+            //列限制                                           00001000
+            //左斜线限制                                       00010000
+            //右斜线限制                                       00000100
+            //colLim | leftDiaLim | rightDiaLim                00011100
+            //~(colLim | leftDiaLim | rightDiaLim)             11100011
+            //limit & (~(colLim | leftDiaLim | rightDiaLim))   00011100
+            pos = limit & (~(colLim | leftDiaLim | rightDiaLim));//位上剩余1表示 可作为放置皇后的位置
             int res = 0;
             while (pos != 0)
             {
-                mostRightOne = pos & (~pos + 1);//提取pos最右侧的1  => 1) 11000101 00000001  2) 11000100 00000100
-                pos = pos - mostRightOne;// 11000101-00000001=11000100
+                mostRightOne = pos & (~pos + 1);//提取pos最右侧的1  => 00011100 00000100
+                pos = pos - mostRightOne;// 00011100-00000100 = 00011000
                 // colLim | mostRightOne  => 新的列限制
                 //(leftDiaLim | mostRightOne) << 1    =>  新的左斜线限制   
                 //(rightDiaLim | mostRightOne) >> 1   =>  新的右斜线限制
