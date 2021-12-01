@@ -1,0 +1,16 @@
+C:\Users\linyong\source\repos\DataStructure\NQueen\bin\Debug\net5.0\NQueen.exe
+C:\Users\linyong\source\repos\DataStructure\NQueen\bin\Debug\net5.0\NQueen.deps.json
+C:\Users\linyong\source\repos\DataStructure\NQueen\bin\Debug\net5.0\NQueen.runtimeconfig.json
+C:\Users\linyong\source\repos\DataStructure\NQueen\bin\Debug\net5.0\NQueen.runtimeconfig.dev.json
+C:\Users\linyong\source\repos\DataStructure\NQueen\bin\Debug\net5.0\NQueen.dll
+C:\Users\linyong\source\repos\DataStructure\NQueen\bin\Debug\net5.0\ref\NQueen.dll
+C:\Users\linyong\source\repos\DataStructure\NQueen\bin\Debug\net5.0\NQueen.pdb
+C:\Users\linyong\source\repos\DataStructure\NQueen\obj\Debug\net5.0\NQueen.csproj.AssemblyReference.cache
+C:\Users\linyong\source\repos\DataStructure\NQueen\obj\Debug\net5.0\NQueen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linyong\source\repos\DataStructure\NQueen\obj\Debug\net5.0\NQueen.AssemblyInfoInputs.cache
+C:\Users\linyong\source\repos\DataStructure\NQueen\obj\Debug\net5.0\NQueen.AssemblyInfo.cs
+C:\Users\linyong\source\repos\DataStructure\NQueen\obj\Debug\net5.0\NQueen.csproj.CoreCompileInputs.cache
+C:\Users\linyong\source\repos\DataStructure\NQueen\obj\Debug\net5.0\NQueen.dll
+C:\Users\linyong\source\repos\DataStructure\NQueen\obj\Debug\net5.0\ref\NQueen.dll
+C:\Users\linyong\source\repos\DataStructure\NQueen\obj\Debug\net5.0\NQueen.pdb
+C:\Users\linyong\source\repos\DataStructure\NQueen\obj\Debug\net5.0\NQueen.genruntimeconfig.cache

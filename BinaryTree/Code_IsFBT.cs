@@ -12,7 +12,7 @@ namespace BinaryTree
         //满二叉树满足条件：节点数=2^树的高度-1
 
         /// <summary>
-        /// 判断是否为 满二叉树
+        /// 判断是否为 满二叉树 
         /// </summary>
         /// <param name="head"></param>
         /// <returns></returns>
