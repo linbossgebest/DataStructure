@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NQueen", "NQueen\NQueen.csproj", "{FFC1AD64-AF20-4B84-9B52-761D024483AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsistentHash", "ConsistentHash\ConsistentHash.csproj", "{B920C546-5505-451E-8FDE-B907311A06C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FFC1AD64-AF20-4B84-9B52-761D024483AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFC1AD64-AF20-4B84-9B52-761D024483AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFC1AD64-AF20-4B84-9B52-761D024483AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B920C546-5505-451E-8FDE-B907311A06C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B920C546-5505-451E-8FDE-B907311A06C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B920C546-5505-451E-8FDE-B907311A06C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B920C546-5505-451E-8FDE-B907311A06C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
