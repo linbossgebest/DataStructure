@@ -1,0 +1,15 @@
+C:\Users\linyong\source\repos\DataStructure\KMP\bin\Debug\net5.0\KMP.exe
+C:\Users\linyong\source\repos\DataStructure\KMP\bin\Debug\net5.0\KMP.deps.json
+C:\Users\linyong\source\repos\DataStructure\KMP\bin\Debug\net5.0\KMP.runtimeconfig.json
+C:\Users\linyong\source\repos\DataStructure\KMP\bin\Debug\net5.0\KMP.runtimeconfig.dev.json
+C:\Users\linyong\source\repos\DataStructure\KMP\bin\Debug\net5.0\KMP.dll
+C:\Users\linyong\source\repos\DataStructure\KMP\bin\Debug\net5.0\ref\KMP.dll
+C:\Users\linyong\source\repos\DataStructure\KMP\bin\Debug\net5.0\KMP.pdb
+C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\KMP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\KMP.AssemblyInfoInputs.cache
+C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\KMP.AssemblyInfo.cs
+C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\KMP.csproj.CoreCompileInputs.cache
+C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\KMP.dll
+C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\ref\KMP.dll
+C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\KMP.pdb
+C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\KMP.genruntimeconfig.cache

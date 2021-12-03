@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ConsistentHash")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("KMP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ConsistentHash")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ConsistentHash")]
+[assembly: System.Reflection.AssemblyProductAttribute("KMP")]
+[assembly: System.Reflection.AssemblyTitleAttribute("KMP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。

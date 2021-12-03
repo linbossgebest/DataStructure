@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "NQueen/1.0.0": {
+      "KMP/1.0.0": {
         "runtime": {
-          "NQueen.dll": {}
+          "KMP.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "NQueen/1.0.0": {
+    "KMP/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
