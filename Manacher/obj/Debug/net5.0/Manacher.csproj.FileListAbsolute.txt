@@ -1,0 +1,16 @@
+C:\Users\linyong\source\repos\DataStructure\Manacher\bin\Debug\net5.0\Manacher.exe
+C:\Users\linyong\source\repos\DataStructure\Manacher\bin\Debug\net5.0\Manacher.deps.json
+C:\Users\linyong\source\repos\DataStructure\Manacher\bin\Debug\net5.0\Manacher.runtimeconfig.json
+C:\Users\linyong\source\repos\DataStructure\Manacher\bin\Debug\net5.0\Manacher.runtimeconfig.dev.json
+C:\Users\linyong\source\repos\DataStructure\Manacher\bin\Debug\net5.0\Manacher.dll
+C:\Users\linyong\source\repos\DataStructure\Manacher\bin\Debug\net5.0\ref\Manacher.dll
+C:\Users\linyong\source\repos\DataStructure\Manacher\bin\Debug\net5.0\Manacher.pdb
+C:\Users\linyong\source\repos\DataStructure\Manacher\obj\Debug\net5.0\Manacher.csproj.AssemblyReference.cache
+C:\Users\linyong\source\repos\DataStructure\Manacher\obj\Debug\net5.0\Manacher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linyong\source\repos\DataStructure\Manacher\obj\Debug\net5.0\Manacher.AssemblyInfoInputs.cache
+C:\Users\linyong\source\repos\DataStructure\Manacher\obj\Debug\net5.0\Manacher.AssemblyInfo.cs
+C:\Users\linyong\source\repos\DataStructure\Manacher\obj\Debug\net5.0\Manacher.csproj.CoreCompileInputs.cache
+C:\Users\linyong\source\repos\DataStructure\Manacher\obj\Debug\net5.0\Manacher.dll
+C:\Users\linyong\source\repos\DataStructure\Manacher\obj\Debug\net5.0\ref\Manacher.dll
+C:\Users\linyong\source\repos\DataStructure\Manacher\obj\Debug\net5.0\Manacher.pdb
+C:\Users\linyong\source\repos\DataStructure\Manacher\obj\Debug\net5.0\Manacher.genruntimeconfig.cache
