@@ -1,0 +1,16 @@
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\LeetCode_HOT_100.csproj.AssemblyReference.cache
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\LeetCode_HOT_100.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\LeetCode_HOT_100.AssemblyInfoInputs.cache
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\LeetCode_HOT_100.AssemblyInfo.cs
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\LeetCode_HOT_100.csproj.CoreCompileInputs.cache
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\bin\Debug\net5.0\LeetCode_HOT_100.exe
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\bin\Debug\net5.0\LeetCode_HOT_100.deps.json
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\bin\Debug\net5.0\LeetCode_HOT_100.runtimeconfig.json
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\bin\Debug\net5.0\LeetCode_HOT_100.runtimeconfig.dev.json
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\bin\Debug\net5.0\LeetCode_HOT_100.dll
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\bin\Debug\net5.0\ref\LeetCode_HOT_100.dll
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\bin\Debug\net5.0\LeetCode_HOT_100.pdb
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\LeetCode_HOT_100.dll
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\ref\LeetCode_HOT_100.dll
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\LeetCode_HOT_100.pdb
+C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\LeetCode_HOT_100.genruntimeconfig.cache

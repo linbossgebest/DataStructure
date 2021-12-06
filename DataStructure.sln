@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KMP", "KMP\KMP.csproj", "{E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manacher", "Manacher\Manacher.csproj", "{9DF6C199-C662-4709-97CE-D39CE2EA2DED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Leetcode", "Leetcode", "{E2F98A27-8E5B-4458-A589-659C9F47B4C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_HOT_100", "LeetCode_HOT_100\LeetCode_HOT_100.csproj", "{346665A6-5BF6-4242-8F7E-08E5B0687596}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,9 +43,16 @@ Global
 		{9DF6C199-C662-4709-97CE-D39CE2EA2DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DF6C199-C662-4709-97CE-D39CE2EA2DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DF6C199-C662-4709-97CE-D39CE2EA2DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346665A6-5BF6-4242-8F7E-08E5B0687596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346665A6-5BF6-4242-8F7E-08E5B0687596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346665A6-5BF6-4242-8F7E-08E5B0687596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346665A6-5BF6-4242-8F7E-08E5B0687596}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{346665A6-5BF6-4242-8F7E-08E5B0687596} = {E2F98A27-8E5B-4458-A589-659C9F47B4C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1FBD568F-AE53-43CE-80EC-F91BDE6CC5BB}
