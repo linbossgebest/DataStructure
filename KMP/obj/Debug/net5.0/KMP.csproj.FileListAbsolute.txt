@@ -13,3 +13,4 @@ C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\KMP.dll
 C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\ref\KMP.dll
 C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\KMP.pdb
 C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\KMP.genruntimeconfig.cache
+C:\Users\linyong\source\repos\DataStructure\KMP\obj\Debug\net5.0\KMP.csproj.AssemblyReference.cache

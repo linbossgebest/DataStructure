@@ -7,8 +7,8 @@ namespace KMP
     {
         static void Main(string[] args)
         {
-            string s1 = "abcdefghigadasdfafsafas2wegfbhgf";
-            string s2 = "2w";
+            string s1 = "abcdefghigadasdfafsafas2wegfbhgfababa";
+            string s2 = "abcabcdabc";
             Stopwatch stop1 = new Stopwatch();
             stop1.Start();
             int index1 = KMPHelper.KMP_IndexOf(s1, s2);

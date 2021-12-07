@@ -7,7 +7,8 @@ namespace Manacher
         static void Main(string[] args)
         {
             string s = "123sadasfs13sfzsfasdafdferga";
-            int max=ManacherHelper.MaxPalindromeLength(s);
+            string s1 = "ababa";
+            int max=ManacherHelper.MaxPalindromeLength(s1);
             Console.WriteLine(max);
         }
     }

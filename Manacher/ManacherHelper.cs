@@ -45,6 +45,12 @@ namespace Manacher
             for (int i = 0; i < pArr.Length; i++)
             {
                 //i位置最小的回文半径
+                //L  .....C.....   R
+                //  [ i']   [ i ]
+                //i' i 回文对称
+                //1）i>R i在R的外面  最小回文半径=1    （它自己作为回文半径）
+                //2）i在R的里面      最小回文半径=R-i  （回文边界-i的位置）
+                //3）i与R重叠        最小回文半径=pArr[2*C-i] （ 2*C-i=i'的位置 pArr[2*C-i]=pArr[i']=i'位置的回文半径）
                 pArr[i] = R > i ? Math.Min(pArr[2 * C - i], R - i) : 1;
                 while (i + pArr[i] < str.Length && i - pArr[i] > -1)//i位置往左扩不会超过边界  i位置往右找值和左扩比对不会超边界
                 {

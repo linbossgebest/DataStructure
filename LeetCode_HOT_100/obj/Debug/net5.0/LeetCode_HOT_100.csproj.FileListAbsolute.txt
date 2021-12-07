@@ -1,4 +1,3 @@
-C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\LeetCode_HOT_100.csproj.AssemblyReference.cache
 C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\LeetCode_HOT_100.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\LeetCode_HOT_100.AssemblyInfoInputs.cache
 C:\Users\linyong\source\repos\DataStructure\LeetCode_HOT_100\obj\Debug\net5.0\LeetCode_HOT_100.AssemblyInfo.cs
