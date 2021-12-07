@@ -64,10 +64,10 @@ namespace BinaryTree
                 && (dataRight != null ? true : dataRight.Min > head.Data))
             {
                 isBST = true;
-                maxSubBSTSize = (dataLeft != null ? 0 : dataLeft.MaxSubBSTSize) + (dataRight != null ? 0 : dataRight.MaxSubBSTSize) + 1;
+                maxSubBSTSize = (dataLeft != null ? dataLeft.MaxSubBSTSize : 0) + (dataRight != null ? dataRight.MaxSubBSTSize : 0) + 1;
             }
 
-            return new Info(isBST, maxSubBSTSize, min,max);
+            return new Info(isBST, maxSubBSTSize, min, max);
 
         }
     }

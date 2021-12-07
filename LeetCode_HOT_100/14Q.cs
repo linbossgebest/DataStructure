@@ -48,7 +48,28 @@ namespace LeetCode_HOT_100
     {
         public void Rotate(int[][] matrix)
         {
+            int a = 0;
+            int b = 0;
+            int c = matrix.Length - 1;
+            int d = matrix[0].Length - 1;
+            while (a < c)
+            {
+                RotateEdge(matrix, a, b, c, d);
+            }
 
+        }
+
+        private void RotateEdge(int[][] matrix, int a, int b, int c, int d)
+        {
+            int temp = 0;
+            for (int i = 0; i < d - b; i++)
+            {
+                temp = matrix[a][b + i];
+                matrix[a][b + i] = matrix[c - i][b];
+                matrix[c - i][b] = matrix[c][d - i];
+                matrix[c][d - i] = matrix[a + i][d];
+                matrix[a + i][d] = temp;
+            }
         }
     }
 }
