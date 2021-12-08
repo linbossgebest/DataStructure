@@ -39,7 +39,33 @@ namespace LeetCode_HOT_100
 
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
+            int cal = 0;
+            ListNode pre = new(0);
+            ListNode prelHead = pre;
+            while (l1 != null || l2 != null )
+            {
+                int sum = cal;
+                if (l1 != null)
+                {
+                    sum += l1.val;
+                    l1 = l1.next;
+                }
+                if (l2 != null)
+                {
+                    sum += l2.val;
+                    l2 = l2.next;
+                }
 
+                cal = sum / 10;//>10的数字需要进位 cal代表进位信息
+                int curVal = sum % 10;//代表进位后
+                ListNode curNode = new(curVal);
+                pre.next = curNode;
+                pre = pre.next;     
+            }
+            if (cal > 0)
+                pre.next = new ListNode(cal);
+
+            return prelHead.next;
         }
     }
 }
