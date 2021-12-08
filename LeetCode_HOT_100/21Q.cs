@@ -39,7 +39,7 @@ namespace LeetCode_HOT_100
 
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
-            int cal = 0;
+            int cal = 0;//进位信息
             ListNode pre = new(0);
             ListNode prelHead = pre;
             while (l1 != null || l2 != null )
