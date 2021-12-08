@@ -53,8 +53,8 @@ namespace LeetCode_HOT_100
             int c = matrix.Length - 1;
             int d = matrix[0].Length - 1;
             while (a < c)
-            {
-                RotateEdge(matrix, a, b, c, d);
+            { 
+                RotateEdge(matrix, a++, b++, c--, d--);
             }
 
         }
