@@ -67,7 +67,6 @@ namespace LeetCode_HOT_100
             int[] pArr = new int[str.Length];//回文半径数组
             int R = -1; //当前回文右边界的再往右一个位置，最右的有效区是R-1位置
             int C = -1; //当前回文中心位置
-            int max = int.MinValue;//扩出来的最大值
             for (int i = 0; i < pArr.Length; i++)
             {
                 //i位置最小的回文半径

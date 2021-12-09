@@ -64,7 +64,7 @@ namespace LeetCode_HOT_100
         }
 
         /// <summary>
-        /// 桶技术
+        /// 桶计数
         /// </summary>
         /// <param name="s1"></param>
         /// <param name="s2"></param>

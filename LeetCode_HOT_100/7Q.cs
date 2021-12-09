@@ -42,7 +42,7 @@ namespace LeetCode_HOT_100
             int res = 0;
             while (x != 0)
             {
-                if (res < int.MinValue / 10 || res > int.MaxValue / 10)
+                if (res < int.MinValue / 10 || res > int.MaxValue / 10)//边界条件
                     return 0;
                 int d = x % 10;
                 x /= 10;
