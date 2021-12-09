@@ -36,7 +36,27 @@ namespace LeetCode_HOT_100
         }
         public bool IsPalindrome(ListNode head)
         {
+            if (head == null)
+                return true;
 
+            ListNode firstHalfEnd = EndOfFisrtNode(head);
+            ListNode secondHalfStart = ReverseList(firstHalfEnd.next);
+
+            ListNode p1 = head;
+            ListNode p2 = secondHalfStart;
+            bool result = true;
+            while (result && p2 != null)
+            {
+                if (p1.val != p2.val)
+                    result = false;
+
+                p1 = p1.next;
+                p2 = p2.next;
+            }
+
+            //还原链表
+            firstHalfEnd.next = ReverseList(secondHalfStart);
+            return result;
         }
 
         private ListNode ReverseList(ListNode head)
@@ -51,6 +71,18 @@ namespace LeetCode_HOT_100
                 cur = temp;
             }
             return pre;
+        }
+
+        private ListNode EndOfFisrtNode(ListNode head)
+        {
+            ListNode slow = head;
+            ListNode fast = head;
+            while (fast.next != null && fast.next.next != null)
+            {
+                fast = fast.next.next;
+                slow = slow.next;
+            }
+            return slow;
         }
     }
 }

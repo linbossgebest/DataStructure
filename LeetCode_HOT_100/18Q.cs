@@ -47,7 +47,7 @@ namespace LeetCode_HOT_100
                 first = first.next;
                 k--;
             }
-            while (first != null)
+            while (first != null)//first先走k步，然后first second一起next 等到first为空，second还有k步没走
             {
                 first = first.next;
                 second = second.next;

@@ -41,8 +41,12 @@ namespace LeetCode_HOT_100
 
         public void DeleteNode(ListNode node)
         {
-            node.val = node.next.val;
-            node.next = node.next.next;
+            node.val = node.next.val;//值替换为下一个node的值
+            node.next = node.next.next;//next指针指向下下个node
+
+            //传入节点 c（位于单向链表 a->b->c->d->e->f 中）
+            //                         a->b->d->e->f
+
         }
     }
 }

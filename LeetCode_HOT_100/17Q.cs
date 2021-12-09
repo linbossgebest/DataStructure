@@ -60,7 +60,7 @@ namespace LeetCode_HOT_100
                 else
                     pre.next = pre.next.next;
             }
-            pre.next = null;
+            pre.next = null;//可能末尾是重复节点，则需要吧pre的最后节点指向null
             return head;
         }
 
@@ -70,7 +70,7 @@ namespace LeetCode_HOT_100
             while (pre1 != null)
             {
                 ListNode pre2 = pre1;
-                while (pre2.next != null)
+                while (pre2.next != null)//移除pre2中所有和pre1值相同的node
                 {
                     if (pre2.next.val == pre1.val)
                         pre2.next = pre2.next.next;
