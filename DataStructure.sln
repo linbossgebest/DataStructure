@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Leetcode", "Leetcode", "{E2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode_HOT_100", "LeetCode_HOT_100\LeetCode_HOT_100.csproj", "{346665A6-5BF6-4242-8F7E-08E5B0687596}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViolentRecursion", "ViolentRecursion\ViolentRecursion.csproj", "{B753C9D5-4E86-403F-ADD6-E2F9B05B9565}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{346665A6-5BF6-4242-8F7E-08E5B0687596}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{346665A6-5BF6-4242-8F7E-08E5B0687596}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{346665A6-5BF6-4242-8F7E-08E5B0687596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B753C9D5-4E86-403F-ADD6-E2F9B05B9565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B753C9D5-4E86-403F-ADD6-E2F9B05B9565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B753C9D5-4E86-403F-ADD6-E2F9B05B9565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B753C9D5-4E86-403F-ADD6-E2F9B05B9565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

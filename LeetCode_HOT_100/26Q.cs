@@ -13,7 +13,7 @@ namespace LeetCode_HOT_100
     //示例：
 
     //MinStack minStack = new MinStack();
-    //    minStack.push(-2);
+    //minStack.push(-2);
     //minStack.push(0);
     //minStack.push(-3);
     //minStack.getMin();   --> 返回 -3.

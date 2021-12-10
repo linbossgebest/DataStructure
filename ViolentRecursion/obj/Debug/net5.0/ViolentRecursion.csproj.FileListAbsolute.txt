@@ -1,0 +1,16 @@
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\bin\Debug\net5.0\ViolentRecursion.exe
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\bin\Debug\net5.0\ViolentRecursion.deps.json
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\bin\Debug\net5.0\ViolentRecursion.runtimeconfig.json
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\bin\Debug\net5.0\ViolentRecursion.runtimeconfig.dev.json
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\bin\Debug\net5.0\ViolentRecursion.dll
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\bin\Debug\net5.0\ref\ViolentRecursion.dll
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\bin\Debug\net5.0\ViolentRecursion.pdb
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ViolentRecursion.csproj.AssemblyReference.cache
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ViolentRecursion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ViolentRecursion.AssemblyInfoInputs.cache
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ViolentRecursion.AssemblyInfo.cs
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ViolentRecursion.csproj.CoreCompileInputs.cache
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ViolentRecursion.dll
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ref\ViolentRecursion.dll
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ViolentRecursion.pdb
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ViolentRecursion.genruntimeconfig.cache
