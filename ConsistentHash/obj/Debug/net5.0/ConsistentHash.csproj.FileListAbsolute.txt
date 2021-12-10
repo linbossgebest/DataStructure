@@ -5,7 +5,6 @@ C:\Users\linyong\source\repos\DataStructure\ConsistentHash\bin\Debug\net5.0\Cons
 C:\Users\linyong\source\repos\DataStructure\ConsistentHash\bin\Debug\net5.0\ConsistentHash.dll
 C:\Users\linyong\source\repos\DataStructure\ConsistentHash\bin\Debug\net5.0\ref\ConsistentHash.dll
 C:\Users\linyong\source\repos\DataStructure\ConsistentHash\bin\Debug\net5.0\ConsistentHash.pdb
-C:\Users\linyong\source\repos\DataStructure\ConsistentHash\obj\Debug\net5.0\ConsistentHash.csproj.AssemblyReference.cache
 C:\Users\linyong\source\repos\DataStructure\ConsistentHash\obj\Debug\net5.0\ConsistentHash.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\linyong\source\repos\DataStructure\ConsistentHash\obj\Debug\net5.0\ConsistentHash.AssemblyInfoInputs.cache
 C:\Users\linyong\source\repos\DataStructure\ConsistentHash\obj\Debug\net5.0\ConsistentHash.AssemblyInfo.cs

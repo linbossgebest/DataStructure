@@ -47,11 +47,11 @@ namespace ViolentRecursion
 
         public static int RobotWays2(int N, int E, int S, int k)
         {
-            int[,] db = new int[k + 1, N + 1];
+            int[,] dp = new int[k + 1, N + 1];
             for (int i = 0; i <= k; i++)
                 for (int j = 0; j <= N; j++)
-                    db[i, j] = -1;
-            return f2(N, E, k, S, db);
+                    dp[i, j] = -1;
+            return f2(N, E, k, S, dp);
         }
 
         /// <summary>
@@ -61,74 +61,56 @@ namespace ViolentRecursion
         /// <param name="E"></param>
         /// <param name="rest"></param>
         /// <param name="cur"></param>
-        /// <param name="db"></param>
+        /// <param name="dp"></param>
         /// <returns></returns>
-        public static int f2(int N, int E, int rest, int cur, int[,] db)
+        public static int f2(int N, int E, int rest, int cur, int[,] dp)
         {
-            if (db[rest, cur] != -1)
-                return db[rest, cur];
+            if (dp[rest, cur] != -1)
+                return dp[rest, cur];
 
             if (rest == 0)
             {
-                db[rest, cur] = cur == E ? 1 : 0;
-                return db[rest, cur];
+                dp[rest, cur] = cur == E ? 1 : 0;
+                return dp[rest, cur];
             }
-
+                
             if (cur == 1)
-            {
-                db[rest, cur] = f2(N, E, rest - 1, 2, db);
-                return db[rest, cur];
-            }
+                dp[rest, cur] = f2(N, E, rest - 1, 2, dp);
+
             else if (cur == N)
-            {
-                db[rest, cur] = f2(N, E, rest - 1, N - 1, db);
-                return db[rest, cur];
-            }
+                dp[rest, cur] = f2(N, E, rest - 1, N - 1, dp);
             else
-            {
-                db[rest, cur] = f2(N, E, rest - 1, cur - 1, db) + f2(N, E, rest - 1, cur + 1, db);
-                return db[rest, cur];
-            }
-        }
+                dp[rest, cur] = f2(N, E, rest - 1, cur - 1, dp) + f2(N, E, rest - 1, cur + 1, dp);
 
-
-        public static int RobotWays3(int N, int E, int S, int k)
-        {
-            int[,] db = new int[k + 1, N + 1];
-            for (int i = 0; i <= k; i++)
-                for (int j = 0; j <= N; j++)
-                    db[i, j] = -1;
-            return f3(N, E, k, S, db);
+            return dp[rest, cur];
         }
 
         /// <summary>
         /// 严格表结构（动态规划）
         /// </summary>
-        /// <param name="N">1-N 这么多位置 固定参数</param>
-        /// <param name="E">目标位置 固定参数</param>
-        /// <param name="rest">剩余步数</param>
-        /// <param name="cur">当前位置</param>
-        /// <param name="db">缓存</param>
+        /// <param name="N"></param>
+        /// <param name="E"></param>
+        /// <param name="S"></param>
+        /// <param name="k"></param>
         /// <returns></returns>
-        public static int f3(int N, int E, int rest, int cur, int[,] db)
+        public static int RobotWays3(int N, int E, int S, int k)
         {
-            if (db[rest, cur] != -1)
-                return db[rest, cur];
-
-            if (rest == 0)
-                db[rest, cur] = cur == E ? 1 : 0;
-
-            if (cur == 1)
-                db[rest, cur] = f2(N, E, rest - 1, 2, db);
-
-            else if (cur == N)
-                db[rest, cur] = f2(N, E, rest - 1, N - 1, db);
-            else
-                db[rest, cur] = f2(N, E, rest - 1, cur - 1, db) + f2(N, E, rest - 1, cur + 1, db);
-
-            return db[rest, cur];
+            int[,] dp = new int[k + 1, N + 1];
+            dp[0, E] = 1;
+            for (int rest = 1; rest <= k; rest++)
+            {
+                for (int cur = 1; cur <= N; cur++)
+                {
+                    if (cur == 1)
+                        dp[rest, cur] = dp[rest - 1, 2];
+                    else if (cur == N)
+                        dp[rest, cur] = dp[rest - 1, N - 1];
+                    else
+                        dp[rest, cur] = dp[rest - 1, cur - 1] + dp[rest - 1, cur + 1];
+                }
+            }
+            return dp[k, S];
         }
-
 
         public static void Test()
         {
@@ -136,10 +118,10 @@ namespace ViolentRecursion
             int E = 8;
             int S = 5;
             int K = 13;
-           if( RobotWays1(N, E, S, K)!= RobotWays2(N, E, S, K)|| RobotWays1(N, E, S, K)!= RobotWays3(N, E, S, K))
+            if (RobotWays1(N, E, S, K) != RobotWays2(N, E, S, K) || RobotWays2(N, E, S, K) != RobotWays3(N, E, S, K))
                 Console.WriteLine("结果不一致");
-
-            Console.WriteLine($"结果一致:{RobotWays1(N, E, S, K)}");
+            else
+                Console.WriteLine($"结果一致:{RobotWays1(N, E, S, K)}");
         }
     }
 }
