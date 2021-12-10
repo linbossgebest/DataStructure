@@ -6,7 +6,8 @@ namespace ViolentRecursion
     {
         static void Main(string[] args)
         {
-            RobotWalk.Test();
+            //RobotWalk.Test();
+            CoinMin.Test();
             Console.WriteLine("Hello World!");
         }
 

@@ -13,3 +13,4 @@ C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\Vi
 C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ref\ViolentRecursion.dll
 C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ViolentRecursion.pdb
 C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ViolentRecursion.genruntimeconfig.cache
+C:\Users\linyong\source\repos\DataStructure\ViolentRecursion\obj\Debug\net5.0\ViolentRecursion.csproj.AssemblyReference.cache
