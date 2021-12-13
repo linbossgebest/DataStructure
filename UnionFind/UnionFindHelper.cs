@@ -65,7 +65,7 @@ namespace UnionFind
                 pathStack.Push(element);
                 element = fatherDic[element];
             }
-            while (pathStack.Count() > 0)//数据扁平化处理，让子节点都直接指向最上节点
+            while (pathStack.Count > 0)//数据扁平化处理，让子节点都直接指向最上节点
             {
                 var popElement = pathStack.Pop();
                 fatherDic[popElement] = element;
@@ -98,27 +98,22 @@ namespace UnionFind
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public bool UnionData(T a, T b)
+        public void UnionData(T a, T b)
         {
             if (elementDic.ContainsKey(a) && elementDic.ContainsKey(b))
             {
-                if (IsSameUnion(a, b))//两个元素已经在一个集合中，直接返回true
-                    return true;
+                var elementA = FindHead(elementDic[a]);
+                var elementB = FindHead(elementDic[b]);
+                if (elementA != elementB)//两个元素已经是否在一个集合中
+                {
+                    var bigElement = sizeDic[elementA] >= sizeDic[elementB] ? elementA : elementB;
+                    var smallElement = elementA == bigElement ? elementB : elementA;
 
-                var elementA = elementDic[a];
-                var elementB = elementDic[b];
-
-                var bigElement = sizeDic[elementA] >= sizeDic[elementB] ? elementA : elementB;
-                var smallElement = elementA == bigElement ? elementB : elementA;
-
-                fatherDic[smallElement] = bigElement;
-                sizeDic[bigElement] = sizeDic[bigElement] + sizeDic[smallElement];
-                sizeDic.Remove(smallElement);
-
-                return true;
+                    fatherDic[smallElement] = bigElement;
+                    sizeDic[bigElement] = sizeDic[bigElement] + sizeDic[smallElement];
+                    sizeDic.Remove(smallElement);
+                }                
             }
-            else
-                return false;
         }
     }
 }
