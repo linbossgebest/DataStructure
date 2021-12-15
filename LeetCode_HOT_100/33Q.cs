@@ -46,16 +46,42 @@ namespace LeetCode_HOT_100
             if (tree == null)
                 return null;
 
-            List<ListNode> listNodes = new List<ListNode>();
+            List<List<TreeNode>> res = new List<List<TreeNode>>();
             Queue<TreeNode> queue = new Queue<TreeNode>();
             queue.Enqueue(tree);
             while (queue.Count > 0)
             {
-                var t = queue.Peek();
+                List<TreeNode> treeNodes = new List<TreeNode>();
+                int size = queue.Count;
+                for (int i = 0; i < size; i++)
+                {
+                    var node = queue.Dequeue();
+                    treeNodes.Add(node);
 
-                queue.Enqueue(t.left);
-                queue.Enqueue(t.right);
+
+                    if (node.left != null)
+                        queue.Enqueue(node.left);
+                    if (node.right != null)
+                        queue.Enqueue(node.right);
+                }
+                res.Add(treeNodes);
             }
+
+            int level = res.Count;
+            ListNode[] listNodes = new ListNode[level];
+            for (int i = 0; i < level; i++)
+            {
+                var nodelist = res[i];
+                ListNode listNode = new ListNode(-1);
+                ListNode cur = listNode;
+                for (int j = 0; j < nodelist.Count; j++)
+                {
+                    cur.next = new ListNode(nodelist[j].val);
+                    cur = cur.next;
+                }
+                listNodes[i] = listNode.next;
+            }
+            return listNodes;
         }
     }
 }
