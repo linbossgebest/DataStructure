@@ -36,7 +36,9 @@ namespace LeetCode_HOT_100
         }
         public bool IsValidBST(TreeNode root)
         {
-
+            if (root == null)
+                return true;
+            return Process(root).IsBst;
         }
 
         private Info Process(TreeNode head)
@@ -54,7 +56,7 @@ namespace LeetCode_HOT_100
             if (leftInfo != null)
             {
                 min = Math.Min(min, leftInfo.MinValue);
-                max = Math.Min(max, leftInfo.MaxValue);
+                max = Math.Max(max, leftInfo.MaxValue);
             }
             if (rightInfo != null)
             {
@@ -62,7 +64,10 @@ namespace LeetCode_HOT_100
                 max = Math.Max(max, rightInfo.MaxValue);
             }
 
-            if ((leftInfo == null ? true : leftInfo.IsBst) && (rightInfo == null ? true : rightInfo.IsBst))
+            if ((leftInfo == null ? true : leftInfo.IsBst)
+                && (rightInfo == null ? true : rightInfo.IsBst)
+                && (leftInfo == null ? true : leftInfo.MaxValue < head.val)
+                && (rightInfo == null ? true : rightInfo.MinValue > head.val))
             {
                 isBst = true;
             }
