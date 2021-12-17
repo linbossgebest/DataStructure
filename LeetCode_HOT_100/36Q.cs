@@ -55,7 +55,8 @@ namespace LeetCode_HOT_100
                 return;
 
             Process(root.left, p);
-            if (node == p) {
+            if (node == p)
+            {
                 node = root;
                 return;
             }
@@ -63,6 +64,32 @@ namespace LeetCode_HOT_100
                 node = root;
 
             Process(root.right, p);
+        }
+
+        //1. 首先要确定中序遍历的后继:
+
+        //如果该节点有右子节点, 那么后继是其右子节点的子树中最左端的节点
+        //如果该节点没有右子节点, 那么后继是离它最近的祖先, 该节点在这个祖先的左子树内.
+        //2. 使用递归实现:
+
+        //- 如果根节点小于或等于要查找的节点p, 直接进入右子树递归
+        //- 如果根节点大于要查找的节点, 则暂存左子树递归查找的结果,
+        //    - 如果是 null, 说明在该根节点的左子树中没找到比p大的节点，也就说明该根节点就是要找的p的后继，则直接返回当前根节点;
+        //    - 如果不是 null,说明找到了答案，返回左子树递归查找的结果
+        public TreeNode InorderSuccessor1(TreeNode root, TreeNode p)
+        {
+            if (root == null || p == null)
+                return null;
+            if (root.val < p.val)
+            {
+                TreeNode right = InorderSuccessor1(root.right, p);
+                return right;
+            }
+            else
+            {
+                TreeNode left = InorderSuccessor1(root.left, p);
+                return left != null ? left : root;
+            }
         }
     }
 }
