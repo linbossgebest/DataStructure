@@ -93,8 +93,8 @@ namespace LeetCode_HOT_100
         {
             int lengthA = 0;
             int lengthB = 0;
-            ListNode head1=headA ;
-            ListNode head2=headB;
+            ListNode head1 = headA;
+            ListNode head2 = headB;
             int diff = 0;
             while (head1 != null)
             {
