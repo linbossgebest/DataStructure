@@ -22,8 +22,11 @@ namespace LeetCode_HOT_100
             //Solution14 s14 = new Solution14();
             //s14.Rotate(matrix);
 
-            Solution31 s31 = new Solution31();
-            s31.Test();
+            //Solution31 s31 = new Solution31();
+            //s31.Test();
+
+            Solution38 s38 = new Solution38();
+            s38.Merge2(new int[] { 0},0,new int []{ 1},1);
 
 
             Console.WriteLine("Hello World!");
