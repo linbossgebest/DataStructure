@@ -25,9 +25,13 @@ namespace LeetCode_HOT_100
             //Solution31 s31 = new Solution31();
             //s31.Test();
 
-            Solution38 s38 = new Solution38();
-            s38.Merge2(new int[] { 0},0,new int []{ 1},1);
+            //Solution38 s38 = new Solution38();
+            //s38.Merge2(new int[] { 0},0,new int []{ 1},1);
 
+
+            Solution40 s40 = new Solution40();
+            int[] nums = new int[]{ 4, 3, 2, 7, 8, 2, 3, 1 };
+            s40.FindDisappearedNumbers(nums);
 
             Console.WriteLine("Hello World!");
         }
