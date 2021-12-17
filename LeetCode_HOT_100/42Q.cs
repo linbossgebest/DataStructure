@@ -32,15 +32,6 @@ namespace LeetCode_HOT_100
     //题目数据保证链表已经按升序排列
     public class Solution42
     {
-        public class ListNode
-        {
-            public int val;
-            public ListNode next;
-            public ListNode(int x)
-            {
-                val = x;
-            }
-        }
         public ListNode DeleteDuplicates1(ListNode head)
         {
             if (head == null)

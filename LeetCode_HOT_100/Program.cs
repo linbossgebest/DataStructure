@@ -29,11 +29,21 @@ namespace LeetCode_HOT_100
             //s38.Merge2(new int[] { 0},0,new int []{ 1},1);
 
 
-            Solution40 s40 = new Solution40();
-            int[] nums = new int[]{ 4, 3, 2, 7, 8, 2, 3, 1 };
-            s40.FindDisappearedNumbers(nums);
+            //Solution40 s40 = new Solution40();
+            //int[] nums = new int[]{ 4, 3, 2, 7, 8, 2, 3, 1 };
+            //s40.FindDisappearedNumbers(nums);
+
+            Solution42 s42 = new Solution42();
+            ListNode node1 = new ListNode(1);
+            ListNode node2 = new ListNode(1);
+            ListNode node3 = new ListNode(2);
+            node1.next = node2;
+            node2.next = node3;
+            s42.DeleteDuplicates(node1);
 
             Console.WriteLine("Hello World!");
         }
+
+
     }
 }
