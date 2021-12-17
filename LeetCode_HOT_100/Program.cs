@@ -41,7 +41,6 @@ namespace LeetCode_HOT_100
             node2.next = node3;
             s42.DeleteDuplicates(node1);
 
-            Console.WriteLine("Hello World!");
         }
 
 

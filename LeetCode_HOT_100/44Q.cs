@@ -81,12 +81,59 @@ namespace LeetCode_HOT_100
 
             var index1 = headA;
             var index2 = headB;
-            while (index1 !=index2)
+            while (index1 != index2)
             {
                 index1 = index1 == null ? headB : index1.next;
                 index2 = index2 == null ? headA : index2.next;
             }
             return index1;
+        }
+
+        public ListNode GetIntersectionNode1(ListNode headA, ListNode headB)
+        {
+            int lengthA = 0;
+            int lengthB = 0;
+            ListNode head1=headA ;
+            ListNode head2=headB;
+            int diff = 0;
+            while (head1 != null)
+            {
+                lengthA++;
+                head1 = head1.next;
+            }
+
+            while (head2 != null)
+            {
+                lengthB++;
+                head2 = head2.next;
+            }
+
+            if (lengthA > lengthB)
+            {
+                diff = lengthA - lengthB;
+                head1 = headA;
+                head2 = headB;
+            }
+            else
+            {
+                diff = lengthB - lengthA;
+                head1 = headB;
+                head2 = headA;
+            }
+
+            for (int i = 0; i < diff; i++)
+                head1 = head1.next;
+
+            while (head1 != null && head2 != null)
+            {
+                if (head1 == head2)
+                    return head1;
+
+                head1 = head1.next;
+                head2 = head2.next;
+            }
+
+            return null;
         }
     }
 }
