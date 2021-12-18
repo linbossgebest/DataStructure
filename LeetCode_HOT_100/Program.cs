@@ -33,13 +33,19 @@ namespace LeetCode_HOT_100
             //int[] nums = new int[]{ 4, 3, 2, 7, 8, 2, 3, 1 };
             //s40.FindDisappearedNumbers(nums);
 
-            Solution42 s42 = new Solution42();
+            //Solution42 s42 = new Solution42();
+            //ListNode node1 = new ListNode(1);
+            //ListNode node2 = new ListNode(1);
+            //ListNode node3 = new ListNode(2);
+            //node1.next = node2;
+            //node2.next = node3;
+            //s42.DeleteDuplicates(node1);
+
+            Solution45 s45 = new Solution45();
             ListNode node1 = new ListNode(1);
-            ListNode node2 = new ListNode(1);
-            ListNode node3 = new ListNode(2);
+            ListNode node2 = new ListNode(2);
             node1.next = node2;
-            node2.next = node3;
-            s42.DeleteDuplicates(node1);
+            s45.IsPalindrome(node1);
 
         }
 
