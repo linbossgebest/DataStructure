@@ -52,9 +52,38 @@ namespace LeetCode_HOT_100
 
             if (left.val != right.val)
                 return false;
-            
+
             return DeepCheck(left.left, right.right) && DeepCheck(left.right, right.left);
         }
-       
+
+        public bool IsSymmetric1(TreeNode root)
+        {
+            if (root == null)
+                return true;
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+            queue.Enqueue(root.left);
+            queue.Enqueue(root.right);
+
+            while (queue.Count > 0)
+            {
+                var l = queue.Dequeue();
+                var r = queue.Dequeue();
+                if (l == null && r == null)
+                    continue;
+
+                if ((l == null || r == null) || (l.val != r.val))
+                    return false;
+
+                queue.Enqueue(l.left);
+                queue.Enqueue(r.right);
+
+                queue.Enqueue(l.right);
+                queue.Enqueue(r.left);
+
+            }
+
+            return true;
+        }
+
     }
 }
