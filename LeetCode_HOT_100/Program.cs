@@ -47,13 +47,21 @@ namespace LeetCode_HOT_100
             //node1.next = node2;
             //s45.IsPalindrome(node1);
 
-            Solution49 s49 = new Solution49();
-            string s = "3[a]2[bc]";
-            //string s = "3[a2[c]]";
-            //string s = "abc3[cd]xyz";
-            //string s = "100[leetcode]";
-            string res = s49.DecodeString(s);
-            Console.WriteLine(res);
+            //Solution49 s49 = new Solution49();
+            //string s = "3[a]2[bc]";
+            ////string s = "3[a2[c]]";
+            ////string s = "abc3[cd]xyz";
+            ////string s = "100[leetcode]";
+            //string res = s49.DecodeString(s);
+            //Console.WriteLine(res);
+
+            Solution55 s55 = new Solution55();
+            TreeNode root = new TreeNode(4);
+            TreeNode left = new TreeNode(2);
+            TreeNode right = new TreeNode(7);
+            root.left = left;
+            root.right = right;
+            var res= s55.InvertTree(root);
 
         }
 
