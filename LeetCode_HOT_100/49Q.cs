@@ -38,35 +38,67 @@ namespace LeetCode_HOT_100
     {
         public string DecodeString(string s)
         {
-            Stack<char> stack = new Stack<char>();
+            Stack<string> charStack = new Stack<string>();
             Stack<int> numStack = new Stack<int>();
-            char[] chars = s.ToCharArray();
-            for (int i = 0; i < chars.Length; i++)
+            //char[] chars = s.ToArray();
+            string res = "";
+            for (int i = 0; i < s.Length; i++)
             {
-                char cur = chars[i];
+                char cur = s[i];
                 if (Char.IsDigit(cur))
                 {
-
+                    int num = GetIntNum(s, ref i);
+                    numStack.Push(num);
                 }
-                else if (Char.IsLetter(cur) || cur == '[')
-                { }
+                else if (cur == '[')
+                {
+                    charStack.Push(res);
+                    res = "";
+                }
+                else if (cur == ']')
+                {
+                    StringBuilder sbTemp;
+                    if (charStack.Count > 0)
+                    {
+                        sbTemp = new StringBuilder(charStack.Pop());
+                    }
+                    else
+                        sbTemp = new StringBuilder();
+
+                    int repeatTimes = numStack.Pop();
+                    while (repeatTimes > 0)
+                    {
+                        sbTemp.Append(res);
+                        repeatTimes--;
+                    }
+                    res = sbTemp.ToString();
+                }
                 else
                 {
+                    res += s[i];
                 }
             }
+
+            return res;
 
         }
 
         private int GetIntNum(string s, ref int i)
         {
             StringBuilder sb = new StringBuilder();
+            int tempNums = 0;
             for (int j = i; j < s.Length; j++)
-            {
-                if (Char.IsDigit(s[i]))
-                    sb.Append(s[i]);
+            {         
+                if (Char.IsDigit(s[j]))
+                {
+                    sb.Append(s[j]);
+                    tempNums++;
+                    i++;
+                }
                 else
                     break;
             }
+            i--;
             return Int32.Parse(sb.ToString());
         }
     }
