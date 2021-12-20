@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleEndQueue", "DoubleEnd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThread", "MultiThread\MultiThread.csproj", "{708BDCDE-4465-4C77-95C6-5A5E5FDAD566}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCHandler", "GCHandler\GCHandler.csproj", "{4411FE87-43F0-4130-9601-AC32FE6CA87B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{708BDCDE-4465-4C77-95C6-5A5E5FDAD566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{708BDCDE-4465-4C77-95C6-5A5E5FDAD566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{708BDCDE-4465-4C77-95C6-5A5E5FDAD566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4411FE87-43F0-4130-9601-AC32FE6CA87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4411FE87-43F0-4130-9601-AC32FE6CA87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4411FE87-43F0-4130-9601-AC32FE6CA87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4411FE87-43F0-4130-9601-AC32FE6CA87B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
