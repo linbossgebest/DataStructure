@@ -14,7 +14,7 @@ namespace SortingAlgorithm
                 return nums;
 
             int currentValue;
-            for (int i = 0; i < nums.Length-1; i++)
+            for (int i = 0; i < nums.Length - 1; i++)
             {
                 int preIndex = i;//已被排序的索引
                 currentValue = nums[preIndex + 1];
