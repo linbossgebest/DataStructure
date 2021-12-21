@@ -63,6 +63,9 @@ namespace LeetCode_HOT_100
             //root.right = right;
             //var res= s55.InvertTree(root);
 
+
+            Solution58 s58 = new Solution58();
+            s58.IsValid("{[]}");
         }
 
 
