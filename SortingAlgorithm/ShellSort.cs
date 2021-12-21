@@ -29,6 +29,9 @@ namespace SortingAlgorithm
                     }
                     nums[preIndex + gap] = currentValue;
                 }
+                Console.WriteLine($"本轮增量:{gap}排序后的数组");
+                Common.PrintArray(nums);
+                Console.WriteLine("--------------------");
                 gap /= 2;
             }
             return nums;
