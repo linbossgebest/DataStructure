@@ -27,6 +27,7 @@ namespace SortingAlgorithm
             return array;
         }
 
+        
         public static int Partition(int[] array, int start, int end)
         {
             if (start == end)
@@ -38,11 +39,11 @@ namespace SortingAlgorithm
             Swap(array, pivot, end);
             for (int i = start; i <= end; i++)
             {
-                if (array[i] <= array[end])
+                if (array[i] <= array[end])//如果当前元素小于等于基准数时，分区指示器右移一位
                 {
                     zoneIndex++;
 
-                    if (i > zoneIndex)
+                    if (i > zoneIndex)//如果当前元素下标大于分区指示器下标，当前元素和分区指示器所指元素交换
                         Swap(array, i, zoneIndex);
                 }
             }

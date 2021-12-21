@@ -1,0 +1,16 @@
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\bin\Debug\net5.0\SortingAlgorithm.exe
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\bin\Debug\net5.0\SortingAlgorithm.deps.json
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\bin\Debug\net5.0\SortingAlgorithm.runtimeconfig.json
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\bin\Debug\net5.0\SortingAlgorithm.runtimeconfig.dev.json
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\bin\Debug\net5.0\SortingAlgorithm.dll
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\bin\Debug\net5.0\ref\SortingAlgorithm.dll
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\bin\Debug\net5.0\SortingAlgorithm.pdb
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\obj\Debug\net5.0\SortingAlgorithm.csproj.AssemblyReference.cache
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\obj\Debug\net5.0\SortingAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\obj\Debug\net5.0\SortingAlgorithm.AssemblyInfoInputs.cache
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\obj\Debug\net5.0\SortingAlgorithm.AssemblyInfo.cs
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\obj\Debug\net5.0\SortingAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\obj\Debug\net5.0\SortingAlgorithm.dll
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\obj\Debug\net5.0\ref\SortingAlgorithm.dll
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\obj\Debug\net5.0\SortingAlgorithm.pdb
+C:\Users\linyong\source\repos\DataStructure\SortingAlgorithm\obj\Debug\net5.0\SortingAlgorithm.genruntimeconfig.cache
