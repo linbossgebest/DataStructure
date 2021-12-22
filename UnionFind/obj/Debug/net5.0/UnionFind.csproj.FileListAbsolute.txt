@@ -5,7 +5,6 @@ C:\Users\linyong\source\repos\DataStructure\UnionFind\bin\Debug\net5.0\UnionFind
 C:\Users\linyong\source\repos\DataStructure\UnionFind\bin\Debug\net5.0\UnionFind.dll
 C:\Users\linyong\source\repos\DataStructure\UnionFind\bin\Debug\net5.0\ref\UnionFind.dll
 C:\Users\linyong\source\repos\DataStructure\UnionFind\bin\Debug\net5.0\UnionFind.pdb
-C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\UnionFind.csproj.AssemblyReference.cache
 C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\UnionFind.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\UnionFind.AssemblyInfoInputs.cache
 C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\UnionFind.AssemblyInfo.cs

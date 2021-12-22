@@ -20,12 +20,12 @@ namespace LeetCode_HOT_100
     //minStack.pop();
     //minStack.top();      --> 返回 0.
     //minStack.getMin();   --> 返回 -2.
-    public class MinStack
+    public class MinStack26
     {
         Stack<int> stackData;
         Stack<int> stackMin;
         /** initialize your data structure here. */
-        public MinStack()
+        public MinStack26()
         {
             stackData = new Stack<int>();
             stackMin = new Stack<int>();

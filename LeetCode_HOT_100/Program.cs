@@ -64,8 +64,12 @@ namespace LeetCode_HOT_100
             //var res= s55.InvertTree(root);
 
 
-            Solution58 s58 = new Solution58();
-            s58.IsValid("{[]}");
+            //Solution58 s58 = new Solution58();
+            //s58.IsValid("{[]}");
+
+            int[] height = new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7};
+            Solution67 s67 = new Solution67();
+            s67.MaxArea(height);
         }
 
 
