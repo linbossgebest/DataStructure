@@ -71,9 +71,13 @@ namespace LeetCode_HOT_100
             //Solution67 s67 = new Solution67();
             //s67.MaxArea(height);
 
-            int[] nums = new int[] { -1, 0, 1, 2, -1, -4 };
-            Solution68 s68 = new Solution68();
-            s68.ThreeSum(nums);
+            //int[] nums = new int[] { -1, 0, 1, 2, -1, -4 };
+            //Solution68 s68 = new Solution68();
+            //s68.ThreeSum(nums);
+
+            string s = "23";
+            Solution69 s69 = new Solution69();
+            s69.LetterCombinations(s);
         }
 
 
