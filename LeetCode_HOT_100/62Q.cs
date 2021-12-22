@@ -28,7 +28,8 @@ namespace LeetCode_HOT_100
     public class Solution62
     {
         /// <summary>
-        /// 
+        /// 数组排序，多数元素即存在长度> ⌊ n/2 ⌋的一长串 由相同元素构成的连续子数组。
+        /// 数组中间的元素总是“多数元素”，毕竟它长度> ⌊ n/2 ⌋。
         /// </summary>
         /// <param name="nums"></param>
         /// <returns></returns>
@@ -36,6 +37,25 @@ namespace LeetCode_HOT_100
         {
             Array.Sort(nums);
             return nums[nums.Length >> 1];
+        }
+
+        public int MajorityElement1(int[] nums)
+        {
+            int res = 0;
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            for(int i=0;i<nums.Length;i++)
+            {
+                if (dic.ContainsKey(nums[i]))
+                    dic[nums[i]]++;
+                else
+                    dic.Add(nums[i], 1);
+            }
+            foreach (var item in dic)
+            {
+                if (item.Value > nums.Length / 2)
+                    res= item.Key;
+            }
+            return res;
         }
     }
 }
