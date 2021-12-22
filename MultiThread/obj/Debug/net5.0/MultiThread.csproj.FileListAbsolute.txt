@@ -5,7 +5,6 @@ C:\Users\linyong\source\repos\DataStructure\MultiThread\bin\Debug\net5.0\MultiTh
 C:\Users\linyong\source\repos\DataStructure\MultiThread\bin\Debug\net5.0\MultiThread.dll
 C:\Users\linyong\source\repos\DataStructure\MultiThread\bin\Debug\net5.0\ref\MultiThread.dll
 C:\Users\linyong\source\repos\DataStructure\MultiThread\bin\Debug\net5.0\MultiThread.pdb
-C:\Users\linyong\source\repos\DataStructure\MultiThread\obj\Debug\net5.0\MultiThread.csproj.AssemblyReference.cache
 C:\Users\linyong\source\repos\DataStructure\MultiThread\obj\Debug\net5.0\MultiThread.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\linyong\source\repos\DataStructure\MultiThread\obj\Debug\net5.0\MultiThread.AssemblyInfoInputs.cache
 C:\Users\linyong\source\repos\DataStructure\MultiThread\obj\Debug\net5.0\MultiThread.AssemblyInfo.cs

@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "LeetCode_HOT_100/1.0.0": {
+      "GCHandler/1.0.0": {
         "runtime": {
-          "LeetCode_HOT_100.dll": {}
+          "GCHandler.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "LeetCode_HOT_100/1.0.0": {
+    "GCHandler/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

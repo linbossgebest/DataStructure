@@ -1,0 +1,16 @@
+C:\Users\linyong\source\repos\DataStructure\UnionFind\bin\Debug\net5.0\UnionFind.exe
+C:\Users\linyong\source\repos\DataStructure\UnionFind\bin\Debug\net5.0\UnionFind.deps.json
+C:\Users\linyong\source\repos\DataStructure\UnionFind\bin\Debug\net5.0\UnionFind.runtimeconfig.json
+C:\Users\linyong\source\repos\DataStructure\UnionFind\bin\Debug\net5.0\UnionFind.runtimeconfig.dev.json
+C:\Users\linyong\source\repos\DataStructure\UnionFind\bin\Debug\net5.0\UnionFind.dll
+C:\Users\linyong\source\repos\DataStructure\UnionFind\bin\Debug\net5.0\ref\UnionFind.dll
+C:\Users\linyong\source\repos\DataStructure\UnionFind\bin\Debug\net5.0\UnionFind.pdb
+C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\UnionFind.csproj.AssemblyReference.cache
+C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\UnionFind.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\UnionFind.AssemblyInfoInputs.cache
+C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\UnionFind.AssemblyInfo.cs
+C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\UnionFind.csproj.CoreCompileInputs.cache
+C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\UnionFind.dll
+C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\ref\UnionFind.dll
+C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\UnionFind.pdb
+C:\Users\linyong\source\repos\DataStructure\UnionFind\obj\Debug\net5.0\UnionFind.genruntimeconfig.cache

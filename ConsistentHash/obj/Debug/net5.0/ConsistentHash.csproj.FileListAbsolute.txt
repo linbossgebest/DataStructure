@@ -13,3 +13,4 @@ C:\Users\linyong\source\repos\DataStructure\ConsistentHash\obj\Debug\net5.0\Cons
 C:\Users\linyong\source\repos\DataStructure\ConsistentHash\obj\Debug\net5.0\ref\ConsistentHash.dll
 C:\Users\linyong\source\repos\DataStructure\ConsistentHash\obj\Debug\net5.0\ConsistentHash.pdb
 C:\Users\linyong\source\repos\DataStructure\ConsistentHash\obj\Debug\net5.0\ConsistentHash.genruntimeconfig.cache
+C:\Users\linyong\source\repos\DataStructure\ConsistentHash\obj\Debug\net5.0\ConsistentHash.csproj.AssemblyReference.cache

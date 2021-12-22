@@ -1,0 +1,15 @@
+C:\Users\linyong\source\repos\DataStructure\GCHandler\bin\Debug\net5.0\GCHandler.exe
+C:\Users\linyong\source\repos\DataStructure\GCHandler\bin\Debug\net5.0\GCHandler.deps.json
+C:\Users\linyong\source\repos\DataStructure\GCHandler\bin\Debug\net5.0\GCHandler.runtimeconfig.json
+C:\Users\linyong\source\repos\DataStructure\GCHandler\bin\Debug\net5.0\GCHandler.runtimeconfig.dev.json
+C:\Users\linyong\source\repos\DataStructure\GCHandler\bin\Debug\net5.0\GCHandler.dll
+C:\Users\linyong\source\repos\DataStructure\GCHandler\bin\Debug\net5.0\ref\GCHandler.dll
+C:\Users\linyong\source\repos\DataStructure\GCHandler\bin\Debug\net5.0\GCHandler.pdb
+C:\Users\linyong\source\repos\DataStructure\GCHandler\obj\Debug\net5.0\GCHandler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linyong\source\repos\DataStructure\GCHandler\obj\Debug\net5.0\GCHandler.AssemblyInfoInputs.cache
+C:\Users\linyong\source\repos\DataStructure\GCHandler\obj\Debug\net5.0\GCHandler.AssemblyInfo.cs
+C:\Users\linyong\source\repos\DataStructure\GCHandler\obj\Debug\net5.0\GCHandler.csproj.CoreCompileInputs.cache
+C:\Users\linyong\source\repos\DataStructure\GCHandler\obj\Debug\net5.0\GCHandler.dll
+C:\Users\linyong\source\repos\DataStructure\GCHandler\obj\Debug\net5.0\ref\GCHandler.dll
+C:\Users\linyong\source\repos\DataStructure\GCHandler\obj\Debug\net5.0\GCHandler.pdb
+C:\Users\linyong\source\repos\DataStructure\GCHandler\obj\Debug\net5.0\GCHandler.genruntimeconfig.cache
