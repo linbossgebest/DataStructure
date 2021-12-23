@@ -79,8 +79,12 @@ namespace LeetCode_HOT_100
             //Solution69 s69 = new Solution69();
             //s69.LetterCombinations(s);
 
-            Solution70 s70 = new Solution70();
-            s70.GenerateParenthesis1(2);
+            //Solution70 s70 = new Solution70();
+            //s70.GenerateParenthesis1(2);
+
+            Solution72 s72 = new Solution72();
+            int[] nums = new int[] { 3,1 };
+            s72.Search(nums, 1);
         }
 
 

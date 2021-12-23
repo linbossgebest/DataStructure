@@ -41,12 +41,12 @@ namespace LeetCode_HOT_100
         public void NextPermutation(int[] nums)
         {
             int i = nums.Length - 2;
-            while (i >= 0 && nums[i] >= nums[i + 1])
+            while (i >= 0 && nums[i] >= nums[i + 1]) //数组从后往前找到第一个升序索引
                 i--;
             if (i >= 0)
             {
                 int j = nums.Length - 1;
-                while (j >= 0 && nums[i] >= nums[j])
+                while (j >= 0 && nums[i] >= nums[j])//数组从后往前找到第一个比nums[i]大的索引
                     j--;
 
                 Swap(nums, i, j);
