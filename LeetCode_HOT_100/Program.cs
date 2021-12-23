@@ -80,7 +80,7 @@ namespace LeetCode_HOT_100
             //s69.LetterCombinations(s);
 
             Solution70 s70 = new Solution70();
-            s70.GenerateParenthesis(2);
+            s70.GenerateParenthesis1(2);
         }
 
 
