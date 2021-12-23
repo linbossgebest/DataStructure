@@ -45,16 +45,16 @@ namespace LeetCode_HOT_100
             IList<string> res = new List<string>();
             if (digits.Length == 0)
                 return res;
-            
-            Dictionary<char, string> dicNumString = new Dictionary<char, string>();        
+
+            Dictionary<char, string> dicNumString = new Dictionary<char, string>();
             dicNumString.Add('2', "abc");
             dicNumString.Add('3', "def");
             dicNumString.Add('4', "ghi");
             dicNumString.Add('5', "jkl");
             dicNumString.Add('6', "mno");
             dicNumString.Add('7', "pqrs");
-            dicNumString.Add('8', "tvw");
-            dicNumString.Add('9', "xyz");
+            dicNumString.Add('8', "tuv");
+            dicNumString.Add('9', "wxyz");
             Process(res, dicNumString, digits, 0, "");
             return res;
         }
@@ -70,9 +70,10 @@ namespace LeetCode_HOT_100
                 int lettersCount = letters.Length;
                 for (int i = 0; i < lettersCount; i++)
                 {
-                    s.Append(letters[i]);
+                    //s = s.Append(letters[i]);
+                    s += letters[i];
                     Process(res, dicNumString, digits, index + 1, s);
-                    s.Remove(index);
+                    s = s.Remove(index);
                 }
             }
         }
