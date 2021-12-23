@@ -75,9 +75,12 @@ namespace LeetCode_HOT_100
             //Solution68 s68 = new Solution68();
             //s68.ThreeSum(nums);
 
-            string s = "23";
-            Solution69 s69 = new Solution69();
-            s69.LetterCombinations(s);
+            //string s = "23";
+            //Solution69 s69 = new Solution69();
+            //s69.LetterCombinations(s);
+
+            Solution70 s70 = new Solution70();
+            s70.GenerateParenthesis(2);
         }
 
 
