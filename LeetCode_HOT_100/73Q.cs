@@ -40,7 +40,31 @@ namespace LeetCode_HOT_100
     {
         public int[] SearchRange(int[] nums, int target)
         {
+            int leftIndex = BinarySearch(nums, target, true);
+            int rightIndex = BinarySearch(nums, target, false) - 1;
+            if (leftIndex <= rightIndex && nums[leftIndex] == target && nums[rightIndex] == target)
+                return new int[] { leftIndex, rightIndex };
+            else
+                return new int[] { -1, -1 };
+        }
 
+        public int BinarySearch(int[] nums, int target, bool flag)
+        {
+            int left = 0, right = nums.Length - 1, res = nums.Length;
+            while (left <= right)
+            {
+                int mid = (left + right) / 2;
+                if (nums[mid] > target || (flag && nums[mid] >= target))
+                {
+                    right = mid - 1;
+                    res = mid;
+                }
+                else
+                {
+                    left = mid + 1;
+                }
+            }
+            return res;
         }
     }
 }

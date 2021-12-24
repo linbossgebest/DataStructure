@@ -82,9 +82,14 @@ namespace LeetCode_HOT_100
             //Solution70 s70 = new Solution70();
             //s70.GenerateParenthesis1(2);
 
-            Solution72 s72 = new Solution72();
-            int[] nums = new int[] { 3,1 };
-            s72.Search(nums, 1);
+            //Solution72 s72 = new Solution72();
+            //int[] nums = new int[] { 3,1 };
+            //s72.Search(nums, 1);
+
+            //int[] nums = new int[] {1,2,3,4,5,5,6,6,7,8,8,8,9,10 };
+            int[] nums = new int[] { 1 };
+            Solution73 s73 = new Solution73();
+            s73.SearchRange(nums, 1);
         }
 
 
