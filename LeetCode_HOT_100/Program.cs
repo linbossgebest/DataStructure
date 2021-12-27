@@ -87,9 +87,17 @@ namespace LeetCode_HOT_100
             //s72.Search(nums, 1);
 
             //int[] nums = new int[] {1,2,3,4,5,5,6,6,7,8,8,8,9,10 };
-            int[] nums = new int[] { 1 };
-            Solution73 s73 = new Solution73();
-            s73.SearchRange(nums, 1);
+            //int[] nums = new int[] { 1 };
+            //Solution73 s73 = new Solution73();
+            //s73.SearchRange(nums, 1);
+
+            //int[] nums = new int[] { 2, 3, 6, 7 };
+            //Solution74 s74 = new Solution74();
+            //s74.CombinationSum(nums, 7);
+
+            int[] nums = { 1, 2, 3 };
+            Solution75 s75 = new Solution75();
+            s75.Permute(nums);
         }
 
 
