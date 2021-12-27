@@ -62,7 +62,7 @@ namespace LeetCode_HOT_100
         {
             if (pos == current.Length)
             {
-                Console.WriteLine(new string(current));
+                //Console.WriteLine(new string(current));
                 if (valid(current))
                 {
                     result.Add(new string(current));
