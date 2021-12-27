@@ -51,7 +51,7 @@ namespace LeetCode_HOT_100
         public int BinarySearch(int[] nums, int target, bool flag)
         {
             int left = 0, right = nums.Length - 1, res = nums.Length;
-            while (left <= right)
+            while (left <= right) 
             {
                 int mid = (left + right) / 2;
                 if (nums[mid] > target || (flag && nums[mid] >= target))
