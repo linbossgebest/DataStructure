@@ -47,12 +47,12 @@ namespace LeetCode_HOT_100
     {
         public int UniquePaths(int m, int n)
         {
-            int[,] arrive = new int[m,n];
+            int[,] arrive = new int[m, n];
             for (int i = 0; i < m; i++)
             {
                 arrive[i, 0] = 1;
             }
-            for (int i = 0; i < n; i++) 
+            for (int i = 0; i < n; i++)
             {
                 arrive[0, i] = 1;
             }
