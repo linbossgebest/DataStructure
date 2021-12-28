@@ -29,10 +29,34 @@ namespace LeetCode_HOT_100
     //intervals[i].length == 2
     //0 <= starti <= endi <= 104
     public class Solution78
-    { 
+    {
         public int[][] Merge(int[][] intervals)
         {
+            Array.Sort(intervals, new MyCompar());
+            List<int[]> res = new List<int[]>();
 
+            for (int i = 0; i < intervals.Length; i++)
+            {
+                int left = intervals[i][0], right = intervals[i][1];
+                if (res.Count == 0 || res[res.Count - 1][1] < left)
+                {
+                    res.Add(new int[] { left, right });
+                }
+                else
+                {
+                    res[res.Count - 1][1] = Math.Max(right, res[res.Count - 1][1]);
+                }
+            }
+
+            return res.ToArray();
+        }
+
+        public class MyCompar : IComparer<int[]>
+        {
+            public int Compare(int[] x, int[] y)
+            {
+                return x[0] - y[0];
+            }
         }
     }
 }

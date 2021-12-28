@@ -99,9 +99,23 @@ namespace LeetCode_HOT_100
             //Solution75 s75 = new Solution75();
             //s75.Permute(nums);
 
-            string[] strs = { "eat","tea","tan","ate","nat","bat" };
-            Solution76 s76 = new Solution76();
-            s76.GroupAnagrams(strs);
+            //string[] strs = { "eat","tea","tan","ate","nat","bat" };
+            //Solution76 s76 = new Solution76();
+            //s76.GroupAnagrams(strs);
+
+            int[][] res = new int[][]
+            {
+                new int[]{1,9},
+                 new int[]{2,5},
+                  new int[]{19,20},
+                   new int[]{10,11},
+                    new int[]{12,20},
+                     new int[]{0,3},
+                      new int[]{0,1},
+                      new int[]{0,2},
+            };
+            Solution78 s78 = new Solution78();
+            s78.Merge(res);
         }
 
 
