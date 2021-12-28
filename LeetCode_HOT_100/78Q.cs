@@ -32,7 +32,7 @@ namespace LeetCode_HOT_100
     {
         public int[][] Merge(int[][] intervals)
         {
-            Array.Sort(intervals, new MyCompar());
+            Array.Sort(intervals, new MyCompar());//排序
             List<int[]> res = new List<int[]>();
 
             for (int i = 0; i < intervals.Length; i++)

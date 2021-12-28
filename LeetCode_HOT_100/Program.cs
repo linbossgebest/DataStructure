@@ -112,7 +112,7 @@ namespace LeetCode_HOT_100
                     new int[]{12,20},
                      new int[]{0,3},
                       new int[]{0,1},
-                      new int[]{0,2},
+                       new int[]{0,2},
             };
             Solution78 s78 = new Solution78();
             s78.Merge(res);
