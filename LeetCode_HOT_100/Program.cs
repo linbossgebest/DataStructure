@@ -117,13 +117,17 @@ namespace LeetCode_HOT_100
             //Solution78 s78 = new Solution78();
             //s78.Merge(res);
 
-            int[][] res = new int[][] {
-            new int[]{ 1,3,1},
-            new int[] { 1,5,1},
-            new int[] { 4,2,1}
-            };
-            Solution80 s80 = new Solution80();
-            s80.MinPathSum(res);
+            //int[][] res = new int[][] {
+            //new int[]{ 1,3,1},
+            //new int[] { 1,5,1},
+            //new int[] { 4,2,1}
+            //};
+            //Solution80 s80 = new Solution80();
+            //s80.MinPathSum(res);
+
+            int[] nums = new int[]{ 2, 0, 2, 1, 1, 0 };
+            Solution81 s81 = new Solution81();
+            s81.SortColors1(nums);
         }
 
 
