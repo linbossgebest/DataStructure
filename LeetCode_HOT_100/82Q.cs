@@ -49,8 +49,6 @@ namespace LeetCode_HOT_100
             Process(nums, index + 1);
             tempList.RemoveAt(tempList.Count-1);
             Process(nums, index + 1);
-
-
         }
     }
 }
