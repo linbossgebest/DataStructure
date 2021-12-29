@@ -13,3 +13,4 @@ C:\Users\linyong\source\repos\DataStructure\MultiThread\obj\Debug\net5.0\MultiTh
 C:\Users\linyong\source\repos\DataStructure\MultiThread\obj\Debug\net5.0\ref\MultiThread.dll
 C:\Users\linyong\source\repos\DataStructure\MultiThread\obj\Debug\net5.0\MultiThread.pdb
 C:\Users\linyong\source\repos\DataStructure\MultiThread\obj\Debug\net5.0\MultiThread.genruntimeconfig.cache
+C:\Users\linyong\source\repos\DataStructure\MultiThread\obj\Debug\net5.0\MultiThread.csproj.AssemblyReference.cache

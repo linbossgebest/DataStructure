@@ -8,13 +8,47 @@ namespace MultiThread
 {
     class Program
     {
-        static AutoResetEvent AautoResetEvent = new AutoResetEvent(false);
-        static AutoResetEvent BautoResetEvent = new AutoResetEvent(false);
-        static AutoResetEvent CautoResetEvent = new AutoResetEvent(false);
+        #region AutoResetEvent
 
-        //static EventWaitHandle AautoResetEvent = new ManualResetEvent(false);
-        //static EventWaitHandle BautoResetEvent = new ManualResetEvent(false);
-        //static EventWaitHandle CautoResetEvent = new ManualResetEvent(false);
+        //static AutoResetEvent AautoResetEvent = new AutoResetEvent(false);
+        //static AutoResetEvent BautoResetEvent = new AutoResetEvent(false);
+        //static AutoResetEvent CautoResetEvent = new AutoResetEvent(false);
+
+        //static void ShowA()
+        //{
+        //    for (int i = 0; i < 10; i++)
+        //    {
+        //        AautoResetEvent.WaitOne();
+        //        Console.Write("A");
+        //        BautoResetEvent.Set();
+        //    }
+        //}
+        //static void ShowB()
+        //{
+        //    for (int i = 0; i < 10; i++)
+        //    {
+        //        BautoResetEvent.WaitOne();
+        //        Console.Write("B");
+        //        CautoResetEvent.Set();
+        //    }
+        //}
+        //static void ShowC()
+        //{
+        //    for (int i = 0; i < 10; i++)
+        //    {
+        //        CautoResetEvent.WaitOne();
+        //        Console.Write("C");
+        //        AautoResetEvent.Set();
+        //    }
+        //}
+
+        #endregion
+
+        #region ManualResetEvent
+
+        static EventWaitHandle AautoResetEvent = new ManualResetEvent(false);
+        static EventWaitHandle BautoResetEvent = new ManualResetEvent(false);
+        static EventWaitHandle CautoResetEvent = new ManualResetEvent(false);
 
         static void ShowA()
         {
@@ -22,6 +56,7 @@ namespace MultiThread
             {
                 AautoResetEvent.WaitOne();
                 Console.Write("A");
+                AautoResetEvent.Reset();
                 BautoResetEvent.Set();
             }
         }
@@ -31,6 +66,7 @@ namespace MultiThread
             {
                 BautoResetEvent.WaitOne();
                 Console.Write("B");
+                BautoResetEvent.Reset();
                 CautoResetEvent.Set();
             }
         }
@@ -40,9 +76,15 @@ namespace MultiThread
             {
                 CautoResetEvent.WaitOne();
                 Console.Write("C");
+                CautoResetEvent.Reset();
                 AautoResetEvent.Set();
             }
         }
+
+        #endregion
+
+
+
         static void Main(string[] args)
         {
             Task.Run(() => ShowA());
