@@ -66,7 +66,7 @@ namespace LeetCode_HOT_100
         {
             if (board[i][j] != s[k])
                 return false;
-            else if (k == board.Length - 1)
+            else if (k == s.Length - 1)
                 return true;
 
             visited[i][j] = true;
