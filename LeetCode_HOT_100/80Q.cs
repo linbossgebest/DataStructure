@@ -50,7 +50,7 @@ namespace LeetCode_HOT_100
             }
             for (int j = 1; j < columns; j++)
             {
-                dp[0][j] = dp[0][j - 1] + grid[j][0];
+                dp[0][j] = dp[0][j - 1] + grid[0][j];
             }
             for (int i = 1; i < rows; i++)
             {
