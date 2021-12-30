@@ -69,18 +69,32 @@ namespace LeetCode_HOT_100
             return Process(preorder, inorder, 0, n - 1, 0, n - 1);
         }
 
+        /// <summary>
+        /// 递归方法
+        /// </summary>
+        /// <param name="preorder">前序遍历数组</param>
+        /// <param name="inorder">中序遍历数组</param>
+        /// <param name="preorder_left">前序数组左边界</param>
+        /// <param name="preorder_right">前序数组右边界</param>
+        /// <param name="inorder_left">中序数组左边界</param>
+        /// <param name="inorder_right">中序数组右边界</param>
+        /// <returns></returns>
         public TreeNode Process(int[] preorder, int[] inorder, int preorder_left, int preorder_right, int inorder_left, int inorder_right)
         {
             if (preorder_left > preorder_right)
                 return null;
 
+            //前序数组的左边界为当前根节点的位置
             int preorder_root = preorder_left;
+            //当前确定的根节点在中序数组中的位置
             int inorder_root = dic[preorder[preorder_root]];
-
+            //创建根节点
             TreeNode root = new TreeNode(preorder[preorder_root]);
-            //得到左子树中的节点数目
+            //得到左子树中的节点数目（当前中序的根节点-当前中序的左边界）
             int left_subtree_size = inorder_root - inorder_left;
+            //根节点的左节点
             root.left = Process(preorder, inorder, preorder_left + 1, preorder_left + left_subtree_size, inorder_left, inorder_root - 1);
+            //根节点的右节点
             root.right = Process(preorder, inorder, preorder_left + left_subtree_size + 1, preorder_right, inorder_root + 1, inorder_right);
 
             return root;
