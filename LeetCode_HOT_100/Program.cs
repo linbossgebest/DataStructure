@@ -138,10 +138,16 @@ namespace LeetCode_HOT_100
             //Solution83 s83 = new Solution83();
             //s83.Exist(res, "ABCB");
 
-            int[] preorder = new int[] { 3, 9, 20, 15, 7 };
-            int[] inorder = new int[] { 9, 3, 15, 20, 7 };
-            Solution85 s85 = new Solution85();
-            s85.BuildTree(preorder,inorder);
+            //int[] preorder = new int[] { 3, 9, 20, 15, 7 };
+            //int[] inorder = new int[] { 9, 3, 15, 20, 7 };
+            //Solution85 s85 = new Solution85();
+            //s85.BuildTree(preorder,inorder);
+
+            var s = "leetcode";
+            var wordDict = new string[] { "leet", "code" };
+            Solution88 s88 = new Solution88();
+            s88.WordBreak(s,wordDict);
+
         }
 
 
