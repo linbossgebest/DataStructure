@@ -95,7 +95,7 @@ namespace LeetCode_HOT_100
                     cache.Remove(removeNode.key);
                     size--;
                 }
-            }
+            }   
             else
             {
                 var existNode = cache[key];
